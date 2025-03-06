@@ -1,0 +1,119 @@
+#header{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+#table-load #load-button{
+    margin-left: 47.5%;
+}
+
+#table-load{
+    background-color: aquamarine;
+    height: 50px;
+}
+
+#table-head{
+    background-color: rgb(13, 85, 85);
+    color: white;
+}
+
+#table-form {
+    background-color: rgb(17, 178, 248);
+    color: black;
+    padding: 10px; 
+    height: 50px;
+}
+
+#table-form #table-form-div {
+    margin-left: 440px; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Optional, adjust spacing */
+    gap: 10px;
+}
+
+#search-bar{
+    display: inline-flex;
+    align-items: center;}
+
+#success-message{
+    background: #DEF1D8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#error-message{
+    background: #EFDCDD;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    right: 15px;
+    top: 15px;
+}
+
+.delete-btn{
+    background-color: red;
+    color: #fff;
+    border: 0px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.edit-btn{
+    background-color: green;
+    color: #fff;
+    border: 0px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#modal{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+}
+
+#modal-form{
+    background: #fff;
+    width: 40%;
+    position: relative;
+    top: 20%;
+    left: calc(50%-20%);
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#modal-form h2{
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000; 
+}
+
+#close-btn{
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
